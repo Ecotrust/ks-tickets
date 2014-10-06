@@ -240,6 +240,7 @@ if __name__ == '__main__':
         'harvest-scheduler', 
         'cogs-priorities',
         'juniper-priorities',
+        'ks-tickets',
     ]
 
     #try:
