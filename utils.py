@@ -26,5 +26,7 @@ def parse_hours_from_title(title):
         val = 8
         units = "hours"
 
+    units = units.lower()
+
     hours = val * CONVERT_TO_HOURS[units]
     return hours
