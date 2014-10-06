@@ -7,3 +7,4 @@ dist/*
 ksdev/*
 *.sqlite
 go.sh
+_ksdev/*
