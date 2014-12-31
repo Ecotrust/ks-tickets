@@ -84,7 +84,7 @@ def get_projects_overview(org, name_filter=None):
 
             for issue in issues:
                 m = issue['milestone']
-                if m:
+                if m and not m['due_on'] == None:
                     if m['title'] not in [x['name'] for x in milestones]:
                         milestone = {'name': m['title'],
                                      'due': get_nice_date(m['due_on']), 'hours': {}, 'tasks': {}}
@@ -227,11 +227,13 @@ def flatten_projects(projects):
 if __name__ == '__main__':
     org = "Ecotrust"
     name_filter = [
-        'land_owner_tools',
+        # 'land_owner_tools',
+        'forestplanner',
         #'madrona-priorities',
         #'madrona',
         'locus',
         'wjug',
+        'WJA',
         'ak-logbook',
         'aez-viewer',
         'floodplain-restoration',
@@ -239,6 +241,7 @@ if __name__ == '__main__':
         'growth-yield-batch',
         'harvest-scheduler', 
         'cogs-priorities',
+        'cogs-roi',
         'juniper-priorities',
         'ks-tickets',
     ]
