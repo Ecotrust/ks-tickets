@@ -237,13 +237,14 @@ if __name__ == '__main__':
         'ak-logbook',
         'aez-viewer',
         'floodplain-restoration',
-
         'growth-yield-batch',
         'harvest-scheduler', 
         'cogs-priorities',
         'cogs-roi',
         'juniper-priorities',
         'ks-tickets',
+        'PEW-EFH',
+        'COMPASS'
     ]
 
     #try:
