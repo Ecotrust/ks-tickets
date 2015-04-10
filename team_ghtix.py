@@ -229,7 +229,7 @@ if __name__ == '__main__':
     name_filter = [
         # 'land_owner_tools',
         'forestplanner',
-        #'madrona-priorities',
+        'madrona-priorities',
         #'madrona',
         'locus',
         'wjug',
