@@ -238,13 +238,14 @@ if __name__ == '__main__':
         'aez-viewer',
         'floodplain-restoration',
         'growth-yield-batch',
-        'harvest-scheduler', 
+        'harvest-scheduler',
         'cogs-priorities',
         'cogs-roi',
         'juniper-priorities',
         'ks-tickets',
         'PEW-EFH',
-        'COMPASS'
+        'COMPASS',
+        'F2S-MOI'
     ]
 
     #try:
