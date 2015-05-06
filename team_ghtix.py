@@ -227,26 +227,27 @@ def flatten_projects(projects):
 if __name__ == '__main__':
     org = "Ecotrust"
     name_filter = [
-        # 'land_owner_tools',
         'forestplanner',
-        # 'madrona-priorities',
-        #'madrona',
-        # 'locus',
-        # 'wjug',
         'WJA',
         'ak-logbook',
-        # 'aez-viewer',
         'floodplain-restoration',
         'growth-yield-batch',
         'harvest-scheduler',
-        # 'cogs-priorities',
-        # 'cogs-roi',
-        # 'juniper-priorities',
-        # 'ks-tickets',
         'PEW-EFH',
         'COMPASS',
         'F2S-MOI'
     ]
+
+    # 'land_owner_tools',
+    # 'madrona-priorities',
+    #'madrona',
+    # 'locus',
+    # 'wjug',
+    # 'aez-viewer',
+    # 'cogs-priorities',
+    # 'cogs-roi',
+    # 'juniper-priorities',
+    # 'ks-tickets',
 
     #try:
     projects = get_projects_overview(org, name_filter)
