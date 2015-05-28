@@ -235,25 +235,25 @@ if __name__ == '__main__':
         'harvest-scheduler',
         'PEW-EFH',
         'COMPASS',
+        'juniper-priorities',
         'F2S-MOI'
     ]
 
     # 'land_owner_tools',
     # 'madrona-priorities',
-    #'madrona',
+    # 'madrona',
     # 'locus',
     # 'wjug',
     # 'aez-viewer',
     # 'cogs-priorities',
     # 'cogs-roi',
-    # 'juniper-priorities',
     # 'ks-tickets',
 
-    #try:
+    # try:
     projects = get_projects_overview(org, name_filter)
     with open('/var/www/labs/ksdev/ksdev.json', 'w') as kfh:
         kfh.write(json.dumps(projects, indent=2))
-    #except:
+    # except:
     #    print "WARNING: using cached json since our request didn't go through"
     #    with open('ksdev/ksdev.json', 'r') as fh:
     #        projects = json.loads(fh.read())
