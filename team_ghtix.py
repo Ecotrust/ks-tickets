@@ -94,7 +94,7 @@ def get_projects_overview(org, name_filter=None):
                             x for x in milestones if x['name'] == m['title']][0]
                 else:
                     continue
-                    # Assign a fictional "Future Release" milestone 
+                    # Assign a fictional "Future Release" milestone
                     #if future_title not in [x['name'] for x in milestones]:
                     #    milestone = {'name': future_title,
                     #                 'due': the_distance_future, 'hours': {}, 'tasks': {}}
@@ -236,7 +236,8 @@ if __name__ == '__main__':
         'PEW-EFH',
         'COMPASS',
         'juniper-priorities',
-        'F2S-MOI'
+        'F2S-MOI',
+        'KSDev_Deadlines',
     ]
 
     # 'land_owner_tools',
